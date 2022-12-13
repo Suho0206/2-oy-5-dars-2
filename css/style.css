@@ -41,6 +41,7 @@ body {
 }
 .hero-item__list{
     display: flex;
+    justify-content: center;
     gap: 15px;
 }
 .header-button {
@@ -188,6 +189,13 @@ body {
     cursor: pointer;
 }
 
+.main-button:active{
+    padding: 8px;
+}
+    
+.header-button:active{
+    padding: 10px 15px;
+}
 
 @media only screen and (max-width:1456px){
     .hero-item__list{
